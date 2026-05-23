@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sathish Kumar - DevOps Engineer</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+        
+        header {
+            background: white;
+            padding: 50px;
+            border-radius: 10px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            margin-bottom: 30px;
+            text-align: center;
+        }
+        
+        h1 {
+            color: #667eea;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        
+        .subtitle {
+            color: #666;
+            font-size: 1.2em;
+            margin-bottom: 20px;
+        }
+        
+        .bio {
+            color: #777;
+            font-size: 1em;
+            margin: 20px 0;
+            line-height: 1.8;
+        }
+        
+        .links {
+            margin-top: 30px;
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+        
+        .btn {
+            display: inline-block;
+            padding: 12px 24px;
+            background: #667eea;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background 0.3s;
+            border: none;
+            cursor: pointer;
+            font-size: 1em;
+        }
+        
+        .btn:hover {
+            background: #764ba2;
+        }
+        
+        .section {
+            background: white;
+            padding: 40px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+        }
+        
+        .section h2 {
+            color: #667eea;
+            font-size: 1.8em;
+            margin-bottom: 20px;
+            border-bottom: 2px solid #667eea;
+            padding-bottom: 10px;
+        }
+        
+        .project {
+            margin: 20px 0;
+            padding: 15px;
+            border-left: 4px solid #667eea;
+            background: #f9f9f9;
+        }
+        
+        .project h3 {
+            color: #667eea;
+            margin-bottom: 5px;
+        }
+        
+        .project p {
+            color: #666;
+            margin-bottom: 10px;
+        }
+        
+        .tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin-top: 10px;
+        }
+        
+        .tag {
+            display: inline-block;
+            background: #667eea;
+            color: white;
+            padding: 5px 12px;
+            border-radius: 15px;
+            font-size: 0.85em;
+        }
+        
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin-top: 20px;
+        }
+        
+        .skill {
+            background: #f9f9f9;
+            padding: 15px;
+            border-radius: 5px;
+            border-left: 4px solid #667eea;
+        }
+        
+        .skill h4 {
+            color: #667eea;
+            margin-bottom: 5px;
+        }
+        
+        .skill p {
+            color: #777;
+            font-size: 0.9em;
+        }
+        
+        footer {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+        }
+        
+        footer p {
+            color: #777;
+            margin-bottom: 10px;
+        }
+        
+        footer a {
+            color: #667eea;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header>
+            <h1>Sathish Kumar</h1>
+            <p class="subtitle">DevOps Engineer | Kubernetes | CI/CD</p>
+            <p class="bio">
+                Building scalable cloud infrastructure with Kubernetes, Docker, and modern CI/CD practices.
+                Passionate about automation, high availability, and cloud-native solutions.
+            </p>
+            <div class="links">
+                <a href="https://github.com/sathish19120" target="_blank" class="btn">GitHub</a>
+                <a href="https://linkedin.com/in/sathish19120" target="_blank" class="btn">LinkedIn</a>
+                <a href="mailto:your-email@gmail.com" class="btn">Email</a>
+            </div>
+        </header>
+
+        <!-- Projects Section -->
+        <div class="section">
+            <h2>Featured Projects</h2>
+            
+            <div class="project">
+                <h3>Finance APP — Complete CI/CD Pipeline</h3>
+                <p>
+                    A production-ready Finance application with full GitOps pipeline demonstrating modern DevOps practices.
+                    Built from scratch with complete documentation and interview preparation guide.
+                </p>
+                <div class="tags">
+                    <span class="tag">Jenkins</span>
+                    <span class="tag">SonarQube</span>
+                    <span class="tag">Docker</span>
+                    <span class="tag">Kubernetes</span>
+                    <span class="tag">ArgoCD</span>
+                </div>
+                <p style="margin-top: 10px;"><a href="https://github.com/sathish19120/Finance-APP" target="_blank" class="btn" style="padding: 8px 16px; font-size: 0.9em;">View on GitHub →</a></p>
+            </div>
+        </div>
+
+        <!-- Skills Section -->
+        <div class="section">
+            <h2>Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill">
+                    <h4>Container Orchestration</h4>
+                    <p>Kubernetes, Docker, Docker Compose, Helm</p>
+                </div>
+                <div class="skill">
+                    <h4>CI/CD</h4>
+                    <p>Jenkins, GitHub Actions, ArgoCD, GitLab CI</p>
+                </div>
+                <div class="skill">
+                    <h4>Code Quality</h4>
+                    <p>SonarQube, Static Analysis, Testing</p>
+                </div>
+                <div class="skill">
+                    <h4>Cloud Platforms</h4>
+                    <p>AWS, Azure, Google Cloud, DigitalOcean</p>
+                </div>
+                <div class="skill">
+                    <h4>Infrastructure as Code</h4>
+                    <p>Terraform, Ansible, CloudFormation</p>
+                </div>
+                <div class="skill">
+                    <h4>Programming</h4>
+                    <p>Python, Bash, JavaScript, Go</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- About Section -->
+        <div class="section">
+            <h2>About Me</h2>
+            <p>
+                I'm a DevOps engineer focused on building reliable, scalable infrastructure. 
+                I specialize in Kubernetes orchestration, CI/CD automation, and cloud-native technologies.
+            </p>
+            <p style="margin-top: 15px;">
+                Through hands-on projects like the Finance APP pipeline, I've gained expertise in:
+            </p>
+            <ul style="margin: 15px 0 0 20px; color: #666;">
+                <li>Designing and implementing complete CI/CD pipelines</li>
+                <li>Kubernetes deployment and management</li>
+                <li>GitOps principles and ArgoCD</li>
+                <li>Infrastructure automation and scripting</li>
+                <li>Cloud security and best practices</li>
+                <li>High availability and disaster recovery</li>
+            </ul>
+        </div>
+
+        <!-- Footer -->
+        <footer>
+            <p>© 2026 Sathish Kumar. All rights reserved.</p>
+            <p>
+                <a href="https://github.com/sathish19120" target="_blank">GitHub</a> | 
+                <a href="https://linkedin.com/in/sathish19120" target="_blank">LinkedIn</a> | 
+                <a href="mailto:your-email@gmail.com">Email</a>
+            </p>
+        </footer>
+    </div>
+</body>
+</html>
